@@ -164,11 +164,6 @@ def tempsEnDateBissextile(temps):
 
 # verifie(liste_temps)
 
-# Donner une fonction qui vérifie la charge horaire d'un employé,
-# donnée sous forme d'une liste de temps travaillé chaque semaine dans un mois.
-# Il ne faut pas dépasser 48h par semaine et 140h par mois (qu'on considère
-# ici de 4 semaines).
-
 # (Optionnel) S'adapter à une liste qui peut contenir plusieurs mois.
 
 def verifie(liste_temps):
@@ -181,7 +176,7 @@ def verifie(liste_temps):
                 employéS.append(i)
         compteur_mois += j
     if compteur_mois > 140:
-        employéM.append(i)
+        employéM.append[i]
     return(employéS, employéM)
 
 
